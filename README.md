@@ -2,7 +2,7 @@
 
 This repository is the operational reference for the MLB TestPlan toolchain running in Azure. It centralizes the current deployment inventory, Docker container mapping, Azure Container Apps details, Cloud Shell deployment commands, verification steps, and access URLs required to operate the environment safely.
 
-The application source code lives in the MLB TestPlan application repository. This repository is intentionally documentation-first so future maintenance does not depend on searching chat history or old shell sessions.
+The application source code lives in the TestManagement Tool application repository at https://github.com/porsche-code/TestManagement-Tool. This repository is intentionally documentation-first so future maintenance does not depend on searching chat history or old shell sessions.
 
 ## Scope
 
@@ -23,7 +23,7 @@ This operations repository documents:
 | Azure resource group | `mlb-testplan-mj-rg` |
 | Azure Container Registry | `mjmlbtestplanacr2026` |
 | Azure region | `germanywestcentral` |
-| Cloud Shell working copy | `~/mlb-testplan-mcp_latest` |
+| Cloud Shell working copy | `~/TestManagement-Tool` |
 
 ## Current Azure Services
 

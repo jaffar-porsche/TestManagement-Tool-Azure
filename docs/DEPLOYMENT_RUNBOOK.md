@@ -25,7 +25,7 @@ Before deploying, ensure that:
 Run this before any deployment:
 
 ```bash
-cd ~/mlb-testplan-mcp_latest
+cd ~/TestManagement-Tool
 git fetch origin
 git checkout pre-final
 git pull origin pre-final
@@ -45,7 +45,7 @@ git rev-parse HEAD
 Use this when the dashboard or root API changed.
 
 ```bash
-cd ~/mlb-testplan-mcp_latest
+cd ~/TestManagement-Tool
 git fetch origin
 git checkout pre-final
 git pull origin pre-final
@@ -61,7 +61,7 @@ az containerapp update \
 Use this when files under `jira-mcp/` changed.
 
 ```bash
-cd ~/mlb-testplan-mcp_latest
+cd ~/TestManagement-Tool
 git fetch origin
 git checkout pre-final
 git pull origin pre-final
@@ -77,7 +77,7 @@ az containerapp update \
 Use this when files under `confluence-mcp/` changed.
 
 ```bash
-cd ~/mlb-testplan-mcp_latest
+cd ~/TestManagement-Tool
 git fetch origin
 git checkout pre-final
 git pull origin pre-final

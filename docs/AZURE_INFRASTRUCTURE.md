@@ -13,7 +13,7 @@ This document records the current Azure footprint used by the MLB TestPlan toolc
 | Container App | `confluence-mcp` | Confluence proxy service |
 | Azure Region | `germanywestcentral` | Public endpoint suffix reflects this region |
 | Git branch used for deployment | `pre-final` | Application branch currently associated with this environment |
-| Cloud Shell repo path | `~/mlb-testplan-mcp_latest` | Expected Azure-side working copy |
+| Cloud Shell repo path | `~/TestManagement-Tool` | Expected Azure-side working copy |
 
 ## Public Endpoints
 
